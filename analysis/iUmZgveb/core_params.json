@@ -61,6 +61,60 @@
           ]
         },
         "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "DateParser",
+        "params": {
+          "outCol": "Date_parsed",
+          "lang": "auto",
+          "timezone_id": "UTC",
+          "formats": [
+            "yyyy-MM-dd"
+          ],
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Date"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "DateComponentsExtractor",
+        "params": {
+          "column": "Date_parsed",
+          "outYearColumn": "Date_parsed_year",
+          "outMonthColumn": "Date_parsed_month",
+          "outDayColumn": "Date_parsed_day",
+          "outDayOfWeekColumn": "dayOIfw",
+          "timezone_id": "UTC"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "3"
+          ],
+          "matchingMode": "FULL_STRING",
+          "normalizationMode": "EXACT",
+          "action": "KEEP_ROW",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "dayOIfw"
+          ]
+        },
+        "metaType": "PROCESSOR",
         "preview": true,
         "disabled": false,
         "alwaysShowComment": false
@@ -117,7 +171,7 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576478482446
+    "lastModifiedOn": 1576478677318
   },
   "creationTag": {
     "versionNumber": 0,
