@@ -219,11 +219,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 46,
+    "versionNumber": 49,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576473846855
+    "lastModifiedOn": 1576474159906
   },
   "creationTag": {
     "versionNumber": 0,
@@ -232,7 +232,7 @@
     },
     "lastModifiedOn": 1528059972846
   },
-  "description": "West Nile virus is most commonly spread to humans through infected mosquitos. Around 20% of people who become infected with the virus develop symptoms ranging from a persistent fever, to serious neurological illnesses that can result in death.\n\n\n\nIn 2002, the first human cases of West Nile virus were reported in Chicago. By 2004 the City of Chicago and the Chicago Department of Public Health (CDPH) had established a comprehensive surveillance and control program that is still in effect today.\n\nEvery week from late spring through the fall, mosquitos in traps across the city are tested for the virus. The results of these tests influence when and where the city will spray airborne pesticides to control adult mosquito populations.\n\nGiven weather, location, testing, and spraying data, this competition asks you to predict when and where different species of mosquitos will test positive for West Nile virus. A more accurate method of predicting outbreaks of West Nile virus in mosquitos will help the City of Chicago and CPHD more efficiently and effectively allocate resources towards preventing transmission of this potentially deadly virus. \n\nWe\u0027ve jump-started your analysis with some visualizations and starter code in R and Python on Kaggle Scripts. No data download or local environment setup needed!",
+  "description": "####West Nile virus is most commonly spread to humans through infected mosquitos. Around 20% of people who become infected with the virus develop symptoms ranging from a persistent fever, to serious neurological illnesses that can result in death.\n\n\n\u003cbr\u003e\n\nIn 2002, the first human cases of West Nile virus were reported in Chicago. By 2004 the City of Chicago and the Chicago Department of Public Health (CDPH) had established a comprehensive surveillance and control program that is still in effect today.\n\nEvery week from late spring through the fall, mosquitos in traps across the city are tested for the virus. The results of these tests influence when and where the city will spray airborne pesticides to control adult mosquito populations.\n\nGiven weather, location, testing, and spraying data, this competition asks you to predict when and where different species of mosquitos will test positive for West Nile virus. A more accurate method of predicting outbreaks of West Nile virus in mosquitos will help the City of Chicago and CPHD more efficiently and effectively allocate resources towards preventing transmission of this potentially deadly virus. \n\nWe\u0027ve jump-started your analysis with some visualizations and starter code in R and Python on Kaggle Scripts. No data download or local environment setup needed!",
   "shortDesc": "Predict West Nile virus in mosquitos across the city of Chicago",
   "tags": [
     "dataanalyst",
