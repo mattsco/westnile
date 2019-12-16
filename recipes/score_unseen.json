@@ -1,0 +1,57 @@
+{
+  "checklists": {
+    "checklists": []
+  }, 
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "user0"
+    }, 
+    "lastModifiedOn": 1528204559877, 
+    "versionNumber": 0
+  }, 
+  "customMeta": {
+    "kv": {}
+  }, 
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "deps": [], 
+          "ref": "unseen"
+        }
+      ]
+    }, 
+    "model": {
+      "items": [
+        {
+          "deps": [], 
+          "ref": "gSOkSUhk"
+        }
+      ]
+    }
+  }, 
+  "maxRunningActivities": 0, 
+  "neverRecomputeExistingPartitions": false, 
+  "optionalDependencies": false, 
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "appendMode": false, 
+          "ref": "unseen_scored"
+        }
+      ]
+    }
+  }, 
+  "params": {}, 
+  "redispatchPartitioning": false, 
+  "tags": [], 
+  "type": "prediction_scoring", 
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "user0"
+    }, 
+    "lastModifiedOn": 1528204561827, 
+    "versionNumber": 1
+  }
+}
