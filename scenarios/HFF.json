@@ -1,0 +1,30 @@
+{
+  "projectKey": "WESTNILE_VIRUS_JY",
+  "id": "HFF",
+  "type": "step_based",
+  "name": "hff",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1576480010034
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": []
+  },
+  "automationLocal": false,
+  "customFields": {}
+}
