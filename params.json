@@ -161,7 +161,9 @@
       }
     }
   },
-  "name": "Westnile_virus_JY",
+  "name": "Westnile Virus",
+  "imgPattern": 4,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -217,11 +219,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 41,
+    "versionNumber": 44,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576473690302
+    "lastModifiedOn": 1576473823651
   },
   "creationTag": {
     "versionNumber": 0,
@@ -230,7 +232,7 @@
     },
     "lastModifiedOn": 1528059972846
   },
-  "shortDesc": "The project *Westnile_virus_JY* was created by user0 on Jun 03rd 2018",
+  "shortDesc": "Predict West Nile virus in mosquitos across the city of Chicago",
   "tags": [
     "imported"
   ],
