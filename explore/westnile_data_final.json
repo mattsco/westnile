@@ -259,7 +259,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABcUlEQVRoQ2NkGGGAcYT5l2HUwwMd4ypVWw/+/vv/H8gdDzt9HKntnkEXw/LlW/bDPDnqYSpE92gMUyEQKTJiRCfpXl/j7hAbyW0UhSCa5kGVpNcdf7m2cMNpodFCi4pRPKhiGOSvEZ2HR+thKiTtQZ+kV626yhYWpv2LCn4FGzHoPbz6+HOHUEvJA8POw2tPvLAItpA4MVpoUStqoeYM+iRNZf8O/jw86mEKQ2A0SVMYgBRrx1ZKrzn2vDTESrKbYsMHSz287tjzxiAryfoR05b+//8/IyMj4/8R42HkpDra8ICGxppjzxtDoMmekrw86Etp5Binxlj1kPTwmmPPloVYSUWRE9MD6uH1x98rBFoKPsCXh0djGGn6Zd2xl1OCrMRzSInpAY1hbA5FL6WHRQzjG8UY0h5ee+K5Y7CFJHxyjNQYBQ3iERPDa0+8LA62EO8lJmkPuiRNjKMpUTPqYUpCbyjoHY3hoRBLlLhxxMUwAPi+2CnbCOboAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABjklEQVRoQ2NkGGGAcYT5l2HQenj98ZeZgZbi06kdIYPWw9T2KMy8UQ/TKmQHi7mDLoZXrbrCFham84tWATToPEwrj47mYVqHLLnmrzr2nzPMivE7ufrR9Q26JC1fvmU/zJEPO30cqeXRQZukR5SHt514y5e5/vjGER/D646/SA2ylJhNjeQ9moepEYqUmDGi8jAooHB5eN2xFz5BVhJbKAlMkN7RJE1pCJKrf92JFxFBFhIr8CXpdSeeNwZZSNaTa8doDFMSctTSS6jQ2nD8hXmApcRJcu0bzcPkhhy19BGKYUrtGY1hSkOQHP3rTrxKDLIQm4+vHkY3d/7++xyJjoo/SLVvNIZJDTFqqx/xeRg5AECBizwosPbky/Rgc/GZpAT6oE/S+DxMikeHzIjHqIfRxrmWnXkmEmUi9YbY2B6SSZqSgm1APLz+xMueQAvxEmyxgu4ZbEl60Ht4/f77Av85uGqDLMWLCSW9YeFhQp5Elh9xHiYlcMhROyB5mByHUkvPqIepFZKD1ZwRF8MAD9LQKaje5x8AAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -373,8 +373,8 @@
           "lockSquareGrid": false
         },
         "mapGridOptions": {
-          "gridLonDeg": 0.07,
-          "gridLatDeg": 0.07
+          "gridLonDeg": 0.019,
+          "gridLatDeg": 0.028
         },
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
