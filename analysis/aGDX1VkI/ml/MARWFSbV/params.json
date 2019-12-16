@@ -588,7 +588,7 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "NUMERIC",
         "state": {
           "userModified": true,
@@ -672,7 +672,7 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "NUMERIC",
         "state": {
           "userModified": true,
@@ -935,7 +935,7 @@
     "gbt_classification": {
       "deviance": true,
       "exponential": false,
-      "enabled": false,
+      "enabled": true,
       "n_estimators": [
         100
       ],
@@ -1348,7 +1348,13 @@
       "cache_node_ids": false,
       "checkpoint_interval": 10
     },
-    "custom_python": [],
+    "custom_python": [
+      {
+        "enabled": true,
+        "code": "# This sample code uses a standard scikit-learn algorithm, the Adaboost classifier.\n\n# Your code must create a \u0027clf\u0027 variable. This clf must be a scikit-learn compatible\n# model, ie, have at least fit(X,y) and predict(X) methods\n# For a classifier, it must also have a classes_ attribute\n\nfrom sklearn.ensemble import AdaBoostClassifier\n\nclf \u003d AdaBoostClassifier(n_estimators\u003d20)\n",
+        "name": "Custom Python model"
+      }
+    ],
     "plugin_python": {},
     "keras": {
       "epochs": 10,
@@ -1414,6 +1420,10 @@
     "containerMode": "INHERIT"
   },
   "sparkParams": {
+    "sparkConf": {
+      "inheritConf": "default",
+      "conf": []
+    },
     "sparkUseGlobalMetastore": false,
     "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
     "sparkRepartitionNonHDFS": 1,
