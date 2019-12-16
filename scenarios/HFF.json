@@ -43,6 +43,34 @@
           "refreshHiveMetastore": true,
           "proceedOnFailure": false
         }
+      },
+      {
+        "type": "build_flowitem",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "resetScenarioStatus": false,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "weather_filtered"
+            },
+            {
+              "type": "DATASET",
+              "itemId": "westnile_data_joined_by_Trap"
+            },
+            {
+              "type": "DATASET",
+              "itemId": "westnile_data_joined"
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
       }
     ]
   },
