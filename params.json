@@ -219,11 +219,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 44,
+    "versionNumber": 45,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576473823651
+    "lastModifiedOn": 1576473833463
   },
   "creationTag": {
     "versionNumber": 0,
@@ -234,7 +234,8 @@
   },
   "shortDesc": "Predict West Nile virus in mosquitos across the city of Chicago",
   "tags": [
-    "imported"
+    "dataanalyst",
+    "kaggle"
   ],
   "customFields": {},
   "checklists": {
