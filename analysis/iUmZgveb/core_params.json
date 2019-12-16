@@ -1,7 +1,71 @@
 {
   "inputDatasetSmartName": "weather",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "M"
+          ],
+          "matchingMode": "FULL_STRING",
+          "normalizationMode": "EXACT",
+          "action": "CLEAR_CELL",
+          "booleanMode": "AND",
+          "appliesTo": "ALL",
+          "columns": [
+            "Tavg"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "-"
+          ],
+          "matchingMode": "FULL_STRING",
+          "normalizationMode": "EXACT",
+          "action": "CLEAR_CELL",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Sunrise"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "FindReplace",
+        "params": {
+          "output": "",
+          "normalization": "EXACT",
+          "matching": "SUBSTRING",
+          "stopAfterFirstMatch": false,
+          "mapping": [
+            {
+              "from": "T",
+              "to": "0"
+            }
+          ],
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "SnowFall"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -39,7 +103,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -47,11 +113,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576478398554
+    "lastModifiedOn": 1576478482446
   },
   "creationTag": {
     "versionNumber": 0,
