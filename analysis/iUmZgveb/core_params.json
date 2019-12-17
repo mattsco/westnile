@@ -26,15 +26,15 @@
         "type": "FilterOnValue",
         "params": {
           "values": [
-            "-"
+            "2"
           ],
           "matchingMode": "FULL_STRING",
           "normalizationMode": "EXACT",
-          "action": "CLEAR_CELL",
+          "action": "REMOVE_ROW",
           "booleanMode": "AND",
           "appliesTo": "SINGLE_COLUMN",
           "columns": [
-            "Sunrise"
+            "Station"
           ]
         },
         "metaType": "PROCESSOR",
@@ -43,81 +43,25 @@
         "alwaysShowComment": false
       },
       {
-        "type": "FindReplace",
+        "type": "ColumnSplitter",
         "params": {
-          "output": "",
-          "normalization": "EXACT",
-          "matching": "SUBSTRING",
-          "stopAfterFirstMatch": false,
-          "mapping": [
-            {
-              "from": "T",
-              "to": "0"
-            }
-          ],
-          "appliesTo": "SINGLE_COLUMN",
-          "columns": [
-            "SnowFall"
-          ]
-        },
-        "metaType": "PROCESSOR",
-        "preview": false,
-        "disabled": false,
-        "alwaysShowComment": false
-      },
-      {
-        "type": "DateParser",
-        "params": {
-          "outCol": "Date_parsed",
-          "lang": "auto",
-          "timezone_id": "UTC",
-          "formats": [
-            "yyyy-MM-dd"
-          ],
-          "appliesTo": "SINGLE_COLUMN",
-          "columns": [
-            "Date"
-          ]
-        },
-        "metaType": "PROCESSOR",
-        "preview": false,
-        "disabled": false,
-        "alwaysShowComment": false
-      },
-      {
-        "type": "DateComponentsExtractor",
-        "params": {
-          "column": "Date_parsed",
-          "outYearColumn": "Date_parsed_year",
-          "outMonthColumn": "Date_parsed_month",
-          "outDayColumn": "Date_parsed_day",
-          "outDayOfWeekColumn": "dayOIfw",
-          "timezone_id": "UTC"
-        },
-        "metaType": "PROCESSOR",
-        "preview": false,
-        "disabled": false,
-        "alwaysShowComment": false
-      },
-      {
-        "type": "FilterOnValue",
-        "params": {
-          "values": [
-            "3"
-          ],
-          "matchingMode": "FULL_STRING",
-          "normalizationMode": "EXACT",
-          "action": "KEEP_ROW",
-          "booleanMode": "AND",
-          "appliesTo": "SINGLE_COLUMN",
-          "columns": [
-            "dayOIfw"
-          ]
+          "inCol": "Date",
+          "separator": "-",
+          "outColPrefix": "Date_",
+          "keepEmptyChunks": false,
+          "target": "COLUMNS",
+          "limitOutput": false,
+          "limit": 0
         },
         "metaType": "PROCESSOR",
         "preview": true,
         "disabled": false,
-        "alwaysShowComment": false
+        "alwaysShowComment": false,
+        "designTimeReport": {
+          "report": {
+            "createdColumnCount": 3
+          }
+        }
       }
     ],
     "maxProcessedMemTableBytes": -1,
@@ -167,11 +111,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576478677318
+    "lastModifiedOn": 1576571748134
   },
   "creationTag": {
     "versionNumber": 0,
