@@ -1,12 +1,59 @@
 {
   "inputDatasetSmartName": "weather",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "FindReplace",
+        "params": {
+          "output": "",
+          "normalization": "EXACT",
+          "matching": "SUBSTRING",
+          "stopAfterFirstMatch": false,
+          "mapping": [
+            {
+              "from": "T",
+              "to": "0.01"
+            }
+          ],
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "PrecipTotal"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "Station": 100,
+      "Date": 100,
+      "Tmax": 100,
+      "Tmin": 100,
+      "Tavg": 100,
+      "Depart": 100,
+      "DewPoint": 100,
+      "WetBulb": 100,
+      "Heat": 100,
+      "Cool": 100,
+      "Sunrise": 100,
+      "Sunset": 100,
+      "CodeSum": 100,
+      "Depth": 100,
+      "Water1": 100,
+      "SnowFall": 100,
+      "PrecipTotal": 100,
+      "StnPressure": 100,
+      "SeaLevel": 100,
+      "ResultSpeed": 100,
+      "ResultDir": 100,
+      "AvgSpeed": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -40,7 +87,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -48,11 +97,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585273538325
+    "lastModifiedOn": 1585273704637
   },
   "creationTag": {
     "versionNumber": 0,
