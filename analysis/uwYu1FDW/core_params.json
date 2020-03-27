@@ -21,7 +21,7 @@
           ]
         },
         "metaType": "PROCESSOR",
-        "preview": true,
+        "preview": false,
         "disabled": false,
         "alwaysShowComment": false
       }
@@ -97,11 +97,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585273704637
+    "lastModifiedOn": 1585273837635
   },
   "creationTag": {
     "versionNumber": 0,
