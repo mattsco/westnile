@@ -12,7 +12,7 @@
           "normalizationMode": "EXACT",
           "action": "CLEAR_CELL",
           "booleanMode": "AND",
-          "appliesTo": "ALL",
+          "appliesTo": "SINGLE_COLUMN",
           "columns": [
             "Tavg"
           ]
@@ -21,52 +21,38 @@
         "preview": false,
         "disabled": false,
         "alwaysShowComment": false
-      },
-      {
-        "type": "FilterOnValue",
-        "params": {
-          "values": [
-            "2"
-          ],
-          "matchingMode": "FULL_STRING",
-          "normalizationMode": "EXACT",
-          "action": "REMOVE_ROW",
-          "booleanMode": "AND",
-          "appliesTo": "SINGLE_COLUMN",
-          "columns": [
-            "Station"
-          ]
-        },
-        "metaType": "PROCESSOR",
-        "preview": false,
-        "disabled": false,
-        "alwaysShowComment": false
-      },
-      {
-        "type": "ColumnSplitter",
-        "params": {
-          "inCol": "Date",
-          "separator": "-",
-          "outColPrefix": "Date_",
-          "keepEmptyChunks": false,
-          "target": "COLUMNS",
-          "limitOutput": false,
-          "limit": 0
-        },
-        "metaType": "PROCESSOR",
-        "preview": true,
-        "disabled": false,
-        "alwaysShowComment": false,
-        "designTimeReport": {
-          "report": {
-            "createdColumnCount": 3
-          }
-        }
       }
     ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "Station": 100,
+      "Date": 100,
+      "Date_0": 100,
+      "Date_1": 100,
+      "Date_2": 100,
+      "Tmax": 100,
+      "Tmin": 100,
+      "Tavg": 100,
+      "Depart": 100,
+      "DewPoint": 100,
+      "WetBulb": 100,
+      "Heat": 100,
+      "Cool": 100,
+      "Sunrise": 100,
+      "Sunset": 100,
+      "CodeSum": 100,
+      "Depth": 100,
+      "Water1": 100,
+      "SnowFall": 100,
+      "PrecipTotal": 100,
+      "StnPressure": 100,
+      "SeaLevel": 100,
+      "ResultSpeed": 100,
+      "ResultDir": 100,
+      "AvgSpeed": 100
     },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
@@ -111,11 +97,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576571748134
+    "lastModifiedOn": 1585272184012
   },
   "creationTag": {
     "versionNumber": 0,
