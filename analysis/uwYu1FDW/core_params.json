@@ -32,7 +32,7 @@
     },
     "columnWidthsByName": {
       "Station": 100,
-      "Date": 100,
+      "Date": 126,
       "Tmax": 100,
       "Tmin": 100,
       "Tavg": 100,
@@ -97,11 +97,11 @@
   "charts": [],
   "name": "Analyze weather",
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585273837635
+    "lastModifiedOn": 1585273907984
   },
   "creationTag": {
     "versionNumber": 0,
