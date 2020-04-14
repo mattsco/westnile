@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586867128511
+    "lastModifiedOn": 1586867138850
   },
   "creationTag": {
     "versionNumber": 0,
@@ -139,22 +139,22 @@
     },
     "probes": [
       {
-        "type": "basic",
+        "enabled": true,
         "meta": {
           "name": "Basic data",
           "level": 0
         },
-        "enabled": true,
+        "type": "basic",
         "configuration": {},
         "computeOnBuildMode": "PARTITION"
       },
       {
-        "type": "records",
+        "enabled": true,
         "meta": {
           "name": "Record count",
           "level": 0
         },
-        "enabled": true,
+        "type": "records",
         "configuration": {},
         "computeOnBuildMode": "NO"
       }
