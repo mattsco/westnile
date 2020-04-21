@@ -62,7 +62,11 @@
       "exportGitRepository": false,
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
-      "includedDatasetsData": [],
+      "includedDatasetsData": [
+        {
+          "name": "past"
+        }
+      ],
       "includedSavedModels": [
         {
           "id": "gSOkSUhk"
@@ -236,11 +240,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 52,
+    "versionNumber": 53,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587467149393
+    "lastModifiedOn": 1587467321282
   },
   "creationTag": {
     "versionNumber": 0,
