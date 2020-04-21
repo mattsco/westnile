@@ -9,7 +9,7 @@ scenario = Scenario()
 
 # Building a dataset
 
-scenario.build_dataset("FRAUD_MODEL.scores", build_mode="RECURSIVE_FORCED_BUILD")
+scenario.build_dataset("scores", build_mode="RECURSIVE_FORCED_BUILD", project_key="FRAUD_MODEL")
 
 scenario.build_dataset("unseen_scored", build_mode="RECURSIVE_FORCED_BUILD")
 
