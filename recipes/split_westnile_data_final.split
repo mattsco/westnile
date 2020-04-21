@@ -83,10 +83,10 @@
           "mode": "\u0026\u0026",
           "conditions": [
             {
-              "input": "WnvPresent_max",
+              "input": "Trap",
               "col": "Date",
               "num": 0,
-              "operator": "not empty string"
+              "operator": "not empty"
             }
           ]
         },
@@ -94,220 +94,148 @@
           "schema": {
             "columns": [
               {
-                "timestampNoTzAsDate": false,
                 "name": "Trap",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Date",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Date_parsed",
-                "type": "date",
-                "maxLength": -1
+                "type": "date"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "year",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Day_number",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Address",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Block",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Street",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "AddressNumberAndStreet",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Latitude",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Longitude",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "AddressAccuracy",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "position",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Tmax",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Tmin",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Tavg",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Depart",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_DewPoint",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_WetBulb",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Heat",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Cool",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Sunrise",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_Sunset",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "daylight_time",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_CodeSum",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_SnowFall",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_PrecipTotal",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_StnPressure",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_SeaLevel",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_ResultSpeed",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_ResultDir",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "weather_AvgSpeed",
-                "type": "double",
-                "maxLength": -1
+                "type": "double"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "Species_concat",
-                "type": "string",
-                "maxLength": -1
+                "type": "string"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "NumMosquitos_sum",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "WnvPresent_max",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               },
               {
-                "timestampNoTzAsDate": false,
                 "name": "count",
-                "type": "bigint",
-                "maxLength": -1
+                "type": "bigint"
               }
             ]
           }
