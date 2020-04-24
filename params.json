@@ -117,7 +117,7 @@
       "writeDashboards": false,
       "moderateDashboards": false,
       "runScenarios": false,
-      "manageDashboardAuthorizations": false,
+      "manageDashboardAuthorizations": true,
       "manageExposedElements": false,
       "manageAdditionalDashboardUsers": false
     }
@@ -288,11 +288,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 61,
+    "versionNumber": 62,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587715056694
+    "lastModifiedOn": 1587715390658
   },
   "creationTag": {
     "versionNumber": 0,
