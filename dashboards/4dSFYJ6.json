@@ -58,15 +58,15 @@
     }
   ],
   "owner": "admin",
-  "listed": true,
+  "listed": false,
   "name": "public",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714539270
+    "lastModifiedOn": 1587714776266
   },
   "creationTag": {
     "versionNumber": 0,
