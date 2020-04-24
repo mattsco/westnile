@@ -81,7 +81,11 @@
   "owner": "admin",
   "permissions": [],
   "additionalDashboardUsers": {
-    "users": []
+    "users": [
+      {
+        "login": "dashboard"
+      }
+    ]
   },
   "tutorialProject": false,
   "settings": {
@@ -242,11 +246,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 56,
+    "versionNumber": 57,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587713970900
+    "lastModifiedOn": 1587714258582
   },
   "creationTag": {
     "versionNumber": 0,
