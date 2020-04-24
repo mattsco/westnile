@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 8,
+              "width": 12,
               "height": 5
             },
             "clickAction": "DO_NOTHING",
@@ -62,11 +62,11 @@
   "name": "public",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714502142
+    "lastModifiedOn": 1587714509320
   },
   "creationTag": {
     "versionNumber": 0,
