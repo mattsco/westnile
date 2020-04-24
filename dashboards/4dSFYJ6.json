@@ -37,7 +37,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 4,
+              "width": 12,
               "height": 5
             },
             "clickAction": "DO_NOTHING",
@@ -46,7 +46,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "IgxfGer",
+            "insightId": "J7VsqpB",
             "insightType": "jupyter",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -62,11 +62,11 @@
   "name": "public",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714509320
+    "lastModifiedOn": 1587714539270
   },
   "creationTag": {
     "versionNumber": 0,
