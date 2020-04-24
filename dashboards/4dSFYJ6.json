@@ -79,6 +79,14 @@
       },
       "title": "no authorisations",
       "showTitle": false
+    },
+    {
+      "id": "UcQsmnB",
+      "grid": {
+        "tiles": []
+      },
+      "title": "authorization",
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -86,11 +94,11 @@
   "name": "public",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714454080
+    "lastModifiedOn": 1587714462203
   },
   "creationTag": {
     "versionNumber": 0,
