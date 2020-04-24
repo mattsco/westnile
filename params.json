@@ -29,13 +29,6 @@
       },
       {
         "objectRef": {
-          "objectId": "westnile_until_2009",
-          "objectType": "DATASET"
-        },
-        "modes": []
-      },
-      {
-        "objectRef": {
           "objectId": "past",
           "objectType": "DATASET"
         },
@@ -249,11 +242,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 55,
+    "versionNumber": 56,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587713752796
+    "lastModifiedOn": 1587713970900
   },
   "creationTag": {
     "versionNumber": 0,
