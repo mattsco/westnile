@@ -9,69 +9,17 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 8,
+              "height": 5
             },
-            "clickAction": "OPEN_INSIGHT",
+            "clickAction": "DO_NOTHING",
             "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
+              "showCode": false
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "JEhQPdh",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 2,
-              "width": 6,
-              "height": 3
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "6rFjnGH",
-            "insightType": "dataset_table",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 3,
-              "left": 0,
-              "width": 6,
-              "height": 3
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "e4aR7RW",
-            "insightType": "dataset_table",
+            "insightId": "E2dVgXt",
+            "insightType": "jupyter",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -83,7 +31,27 @@
     {
       "id": "UcQsmnB",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 4,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showCode": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "IgxfGer",
+            "insightType": "jupyter",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "title": "authorization",
       "showTitle": false
@@ -94,11 +62,11 @@
   "name": "public",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714462203
+    "lastModifiedOn": 1587714502142
   },
   "creationTag": {
     "versionNumber": 0,
