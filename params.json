@@ -62,6 +62,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "intercom patrick debug",
+          "objectType": "JUPYTER_NOTEBOOK"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -264,11 +273,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 59,
+    "versionNumber": 60,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714473941
+    "lastModifiedOn": 1587714534967
   },
   "creationTag": {
     "versionNumber": 0,
