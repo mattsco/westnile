@@ -1,0 +1,31 @@
+{
+  "type": "metrics",
+  "params": {
+    "objectSmartId": "westnile_data_joined",
+    "objectType": "DATASET",
+    "metricId": "basic:COUNT_COLUMNS"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Column count on westnile_data_joined",
+  "dashboardCreationId": "m3WgRqU",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1587714370066
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1587714370066
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
