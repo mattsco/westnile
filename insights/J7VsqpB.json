@@ -1,0 +1,31 @@
+{
+  "type": "jupyter",
+  "params": {
+    "notebookSmartName": "intercom patrick debug",
+    "exportTimestamp": 0,
+    "loadLast": true
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "intercom patrick debug",
+  "dashboardCreationId": "4dSFYJ6",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1587714535082
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1587714535082
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
