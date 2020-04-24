@@ -81,15 +81,15 @@
     }
   ],
   "owner": "admin",
-  "listed": false,
+  "listed": true,
   "name": "utuy",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587713980361
+    "lastModifiedOn": 1587714347215
   },
   "creationTag": {
     "versionNumber": 0,
