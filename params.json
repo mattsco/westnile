@@ -115,7 +115,7 @@
       "exportDatasetsData": false,
       "readDashboards": true,
       "writeDashboards": false,
-      "moderateDashboards": false,
+      "moderateDashboards": true,
       "runScenarios": false,
       "manageDashboardAuthorizations": true,
       "manageExposedElements": false,
@@ -288,11 +288,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 62,
+    "versionNumber": 63,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587715390658
+    "lastModifiedOn": 1587715665176
   },
   "creationTag": {
     "versionNumber": 0,
