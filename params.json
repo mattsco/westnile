@@ -53,6 +53,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "admin\u0027s Python analysis of weather",
+          "objectType": "JUPYTER_NOTEBOOK"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -255,11 +264,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 58,
+    "versionNumber": 59,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587714369886
+    "lastModifiedOn": 1587714473941
   },
   "creationTag": {
     "versionNumber": 0,
