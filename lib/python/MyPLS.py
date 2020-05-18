@@ -10,7 +10,7 @@ class MyPLS():
         return self.pls
     
     def predict(self, X, copy=True):
-        return [i[0] for i in self.pls.predict(X, copy)]
+        return self.pls.predict(X, copy)
          
 
     
