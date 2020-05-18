@@ -10,7 +10,7 @@ class MyPLS():
         return self.pls
     
     def predict(self, X, copy=True):
-        return self.pls.predict(X, copy)
+        return self.pls.predict(X, copy).flatten()
          
 
     
