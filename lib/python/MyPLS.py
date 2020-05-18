@@ -6,7 +6,7 @@ class MyPLS():
         
     def fit(self, X, Y):
         self.pls.fit(X, Y)
-        return self
+        return self.pls
     
     def predict(self, X, copy=True):
         return self.pls.predict(X, copy)
