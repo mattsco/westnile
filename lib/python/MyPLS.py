@@ -9,12 +9,12 @@ class MyPLS():
         return self
     
     def predict(self, X, copy=True):
-        self.pls.predict(X, copy)
-        return self
+        return self.pls.predict(X, copy)
+
     
     def score(self, X, Y, sample_weight=None):
-        self.pls.score(X, Y, sample_weight)
-        return self
+        return self.pls.score(X, Y, sample_weight)
+
     
     def get_params(self, deep=True):
         return self.pls.get_params(deep)
