@@ -423,7 +423,7 @@
     }
   },
   "modeling": {
-    "skipExpensiveReports": false,
+    "skipExpensiveReports": true,
     "random_forest_regression": {
       "enabled": false,
       "n_estimators": {
