@@ -3,6 +3,7 @@ from sklearn.cross_decomposition import PLSRegression
 class MyPLS():
     def __init__(self, n_components=2, scale=True, max_iter=500, tol=1e-06, copy=True):
         self.pls = PLSRegression(n_components, scale, max_iter, tol, copy)
+        self.classes_ = []
         
     def fit(self, X, Y):
         self.pls.fit(X, Y)
@@ -29,4 +30,4 @@ class MyPLS():
 
     @property
     def coeff_(self):
-        return [0]
+        return self.pls.coef_
