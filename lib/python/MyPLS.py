@@ -1,7 +1,7 @@
 from sklearn.cross_decomposition import PLSRegression
 
 class MyPLS():
-    def __init__(self, n_components=2, *, scale=True, max_iter=500, tol=1e-06, copy=True):
+    def __init__(self, n_components=2, scale=True, max_iter=500, tol=1e-06, copy=True):
         self.pls = PLSRegression(n_components, scale, max_iter, tol, copy)
         
     def fit(self, X, Y):
