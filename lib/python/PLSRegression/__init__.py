@@ -1,0 +1,32 @@
+from sklearn.cross_decomposition import PLSRegression
+
+class MyPLS():
+    def __init__(self, n_components=2, *, scale=True, max_iter=500, tol=1e-06, copy=True):
+        self.pls = PLSRegression(n_components, scale, max_iter, tol, copy)
+        
+    def fit(self, X, Y):
+        self.pls.fit(X, Y)
+        return self
+    
+    def predict(self, X, copy=True):
+        self.pls.predict(X, copy)
+        return self
+    
+    def score(self, X, Y, sample_weight=None):
+        self.pls.score(X, Y, sample_weight)
+        return self
+    
+    def get_params(self, deep=True):
+        return self.pls.get_params(deep)
+
+    def set_params(self, **parameters):
+        self.pls.set_params(**parameters)
+        return self
+
+    @property
+    def intercept_(self):
+        return 0
+
+    @property
+    def coeff_(self):
+        return [0]
