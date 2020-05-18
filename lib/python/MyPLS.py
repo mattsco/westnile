@@ -10,7 +10,8 @@ class MyPLS():
         return self.pls
     
     def predict(self, X, copy=True):
-        return self.pls.predict(X, copy)
+        return [i[0] for i in self.pls.predict(X, copy)]
+         
 
     
     def score(self, X, Y, sample_weight=None):
