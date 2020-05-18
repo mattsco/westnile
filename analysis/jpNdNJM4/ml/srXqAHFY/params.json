@@ -481,7 +481,7 @@
       "max_feature_prop": 0.3
     },
     "random_forest_classification": {
-      "enabled": true,
+      "enabled": false,
       "n_estimators": {
         "values": [
           100
@@ -817,7 +817,7 @@
       "leaf_size": 30
     },
     "logistic_regression": {
-      "enabled": true,
+      "enabled": false,
       "multi_class": "multinomial",
       "penalty": {
         "values": {
